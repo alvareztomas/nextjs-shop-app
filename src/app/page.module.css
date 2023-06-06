@@ -23,7 +23,6 @@
   font-weight: 300;
 }
 
-/* Define the keyframes for the floating animation */
 @keyframes float {
   0% {
     transform: translate(0, 0);
