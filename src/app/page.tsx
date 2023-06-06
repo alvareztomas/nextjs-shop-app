@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Button from "@/components/Button/button";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
           Join the community now and participate in the upcoming streams and
           events. Start by joining our discord server with the button bellow!
         </p>
-        <button className={styles.btn}>Get started!</button>
+        <Button text="Get Started!" url="" />
       </div>
       <div className={styles.item}>
         <Image
