@@ -18,11 +18,14 @@ a {
 }
 
 .container {
-  max-width: 1366px;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 0 80px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.content {
+  margin: 20px 0;
+  padding: 0 180px;
 }

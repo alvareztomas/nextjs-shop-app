@@ -8,7 +8,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
-      <h1 className={styles.mainTitle}>Our Works</h1>
+      <h1 className={styles.mainTitle}>Clips, VODs & More</h1>
       {children}
     </div>
   );

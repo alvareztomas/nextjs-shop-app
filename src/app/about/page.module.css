@@ -19,6 +19,7 @@
 .textContainer {
   display: flex;
   gap: 100px;
+  padding: 0 25px;
 }
 
 .item {

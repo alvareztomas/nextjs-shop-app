@@ -3,18 +3,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #bbb;
+  padding: 0 20px;
+  background-color: #111;
 }
+
 .logo {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
 }
+
 .links {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .link {
 }
+
 .logout {
   padding: 5px;
   border: none;
@@ -22,4 +29,11 @@
   color: white;
   cursor: pointer;
   border-radius: 3px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
